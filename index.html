@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>su 的大葉大學資訊工程學系備審資料</title>
+    <style>
+        /* 基本樣式設定 */
+        body {
+            font-family: 'Microsoft JhengHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+        }
+        h2 {
+            color: #3498db;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .project {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* 響應式設計 */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            header { padding: 15px; }
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 封面區 -->
+    <header>
+        <h1 style="border: none; color: white;">大葉大學資訊工程學系</h1>
+        <h2 style="color: white;">114學年度申請入學備審資料</h2>
+        <p>申請人：<strong>蘇忠維</strong></p>
+        <p>聯絡方式：zhongweisu898@gmail.com | 電話：0910-837-605</p>
+    </header>
+
+    <!-- 目錄導覽 -->
+    <div class="section">
+        <h1>目錄</h1>
+        <ul>
+            <li><a href="#autobiography">個人簡歷與自傳</a></li>
+            <li><a href="#motivation">就讀動機</a></li>
+            <li><a href="#projects">課程學習成果</a></li>
+            <li><a href="#activities">多元表現</a></li>
+            <li><a href="#plan">未來學習計畫與生涯規劃</a></li>
+        </ul>
+    </div>
+
+    <!-- 1. 自傳 -->
+    <div id="autobiography" class="section">
+        <h1>個人簡歷與自傳</h1>
+        <h2>家庭背景</h2>
+        <p>單親家庭 從小學習力強 深受家庭期待 </p>
+        
+        
+        
+        <h2>個人特質</h2>
+        <p>邏輯分析能力強、喜歡動手實作、嘗試新事物</p>
+    </div>
+
+    <!-- 2. 就讀動機 -->
+    <div id="motivation" class="section">
+        <h1>就讀動機</h1>
+        <p>我從小在學業與體育領域表現出色，培養出追求卓越的習慣與抗壓能力，雖然國中開始因為慢性蕁麻疹與外貌困擾陷入低潮，但還是努力變好，希望藉由自己改善家庭懷境</p>
+        <ul>
+            
+        </ul>
+    </div>
+        <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課程學習成果</title>
+    <style>
+        /*========== 基礎樣式 ==========*/
+        .project-item {
+            margin: 40px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .image-grid {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        /*----- 單圖樣式 -----*/
+        .image-grid.single img {
+            width: 80%;
+            margin: 0 auto;
+            border: 3px solid #2c3e50;
+            border-radius: 8px;
+        }
+
+        /*----- 雙圖樣式 -----*/
+        .image-grid.double img {
+            flex: 1;
+            min-width: 45%;
+            border: 2px solid #bdc3c7;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        /*========== 互動效果 ==========*/
+        .image-grid.double img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /*========== 響應式設計 ==========*/
+        @media (max-width: 768px) {
+            .image-grid {
+                flex-direction: column;
+            }
+            .image-grid.single img {
+                width: 100%;
+            }
+            .image-grid.double img {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 主標題 -->
+    <h1>課程學習成果</h1>
+
+    <!-- 工程設計區塊 -->
+    <div class="project-item">
+        <h2>工程設計</h2>
+        <div class="image-grid single">
+            <img src="engineering-design.jpg" 
+                 alt="工程設計成果">
+        </div>
+    </div>
+
+    <!-- 2D遊戲設計區塊 -->
+    <div class="project-item">
+        <h2>2D遊戲設計</h2>
+        <div class="image-grid double">
+            <img src="./Construct-角色行为编辑.png" 
+                 alt="遊戲介面設計">
+            <img src="./Construct-事件逻辑设计.png" 
+                 alt="角色動畫展示">
+        </div>
+    </div>
+
+    <!-- 程式設計區塊 -->
+    <div class="project-item">
+        <h2>程式設計</h2>
+        <div class="image-grid double">
+            <img src="student-system.png" 
+                 alt="學生管理系統">
+            <img src="blog-platform.png" 
+                 alt="部落格平台">
+        </div>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
+    <!-- 4. 多元表現 -->
+    <div id="activities" class="section">
+        <h1>多元表現</h1>
+        
+        <h2>競賽表現</h2>
+        <ul>
+            <li> 高一跳遠第三</li>
+        <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>多元表現綜整心得</title>
+    <style>
+        /* 整體風格設定 */
+        body {
+            font-family: 'Microsoft JhengHei', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* 主標題 */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* 次標題 */
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+
+        /* 分點項目 */
+        .point {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            counter-increment: point-counter;
+            position: relative;
+        }
+
+        .point::before {
+            content: counter(point-counter);
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: -15px;
+            top: -15px;
+        }
+
+        /* 反思區塊 */
+        .reflection {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 30px 0;
+        }
+
+        /* 列表樣式 */
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* 強調文字 */
+        strong {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>多元表現綜整心得（體育競賽篇）</h1>
+
+    <div class="point">
+        <h2>面對失敗的勇氣</h2>
+        <p>記得第一次校際比賽時，我因為太緊張踩線犯規。<br>
+        這讓我學會用平常心看待挫折，後來即使練習時成績不理想，<br>
+        我也能靜下心調整步伐。</p>
+    </div>
+
+    <div class="point">
+        <h2>認識自己的節奏</h2>
+        <p>透過反覆測量助跑步點，<br>
+        我發現適合自己的起跳距離比標準少半步。<br>
+        這讓我體會到：<strong>與其盲目模仿別人，找到適合自己的方法更重要</strong>。<br>
+        現在做決定前，我會先分析自己的優勢與限制。</p>
+    </div>
+
+    <div class="point">
+        <h2>團隊中的獨立成長</h2>
+        <p>雖然跳遠是個人項目，<br>
+        但隊友間的互相打氣讓我明白：<br>
+        <strong>真正的競爭不是打敗別人，而是超越昨天的自己</strong>。</p>
+    </div>
+
+    <div class="reflection">
+        <h2>反思與應用</h2>
+        <p>體育場上的這些體悟，<br>
+        或許沒有直接轉化成技術能力，<br>
+        但給了我面對電機工程學習最重要的三樣東西：</p>
+        
+        <ul>
+            <li><strong>堅持的耐心</strong>：像調整助跑步點般反覆驗證程式邏輯</li>
+            <li><strong>調整的彈性</strong>：根據反饋快速修正實驗參數</li>
+            <li><strong>超越自我的渴望</strong>：將競技場上的目標感帶入技術學習</li>
+        </ul>
+
+        <p>我相信這些特質，<br>
+        會讓我在未來遇到程式難題或實驗失敗時，<br>
+        能用運動員的方式找到突破口：</p>
+        
+        <ol>
+            <li>分析問題</li>
+            <li>調整策略</li>
+            <li>再試一次</li>
+        </ol>
+    </div>
+</body>
+</html>
+        
+       
+        
+     
+
+    <!-- 5. 未來計畫 -->
+    <div id="plan" class="section">
+        <h1>未來學習計畫與生涯規劃</h1>
+        
+        <h2>短期計畫（大學四年）</h2>
+        <ul>
+            <li>加強程式能力（Python/C++）</li>
+            <li>學習日文 赴日交換留學</li>
+        </ul>
+        
+        
+
+    <!-- 頁尾 -->
+    <footer style="text-align: center; margin-top: 50px; color: #777;">
+        <p>© 2025 su 的備審資料 | 最後更新日期：2025/05/05</p>
+    </footer>
+</body>
+</html>
